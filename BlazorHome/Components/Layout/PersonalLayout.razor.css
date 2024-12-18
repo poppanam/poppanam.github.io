@@ -1,0 +1,51 @@
+﻿
+body{
+    height: 100%;
+    padding: 20px;
+}
+#wrapper {
+    background-image: url('/Images/background.jpg'); /* Path to your wallpaper */
+    background-size: cover; /* Fill the entire screen */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-attachment: fixed; /* Keep image fixed during scrolling */
+    background-position: center; /* Center the image */
+    min-height: 100vh;
+    padding: 20px;
+}
+#links, #rightlinks {
+    background-color: rgba(0,0,0,.5);
+    /*height: 660px;*/
+    width: 30.5%;
+    margin: 25% 0px 0px 0px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    top: 50%;
+}
+
+#rightlinks {
+    margin: -100px 0px 0px 67.5%;
+    text-align: right;
+}
+
+    #links ul, #links li, #rightlinks ul, #rightlinks li {
+        list-style: none;
+        display: inline;
+    }
+
+    #links li, #rightlinks li {
+        padding: 0px 20px 0px 10px;
+    }
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: #fff;
+}
+
+a img {
+    height: 60px;
+    width: 60px;
+}
